@@ -1,3 +1,13 @@
+-------------------------------------------Voici mon portfolio-------------------------------------------------------------------
+
+- un lien vers la maquette: https://www.figma.com/file/KeoVGhtDg1mH159gZz0jhD/My-Portfolio?node-id=0%3A1
+
+- un lien vers le backlog: https://docs.google.com/spreadsheets/d/1RumWJ60UM3pZ2O02WrvfRyim1sMefnpRrvd2h0hWBkA/edit?usp=sharing
+
+
+
+_________________________________________________________________________________________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
