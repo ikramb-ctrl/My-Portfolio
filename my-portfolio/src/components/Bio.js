@@ -17,10 +17,13 @@ import Timeline from './Timeline';
 const useStyles = makeStyles((theme) => ({
     root: {
         maxWidth: 1000,
+        marginBottom:200,
+        
     },
     media: {
         height: 0,
         paddingTop: '56.25%', // 16:9
+       
     },
     expand: {
         transform: 'rotate(0deg)',
@@ -46,7 +49,7 @@ export default function RecipeReviewCard() {
     };
 
     return (
-        <Card className={classes.root}>
+        <Card className={classes.root} >
             <div id="Bio"> </div>
             <CardHeader
                 avatar={

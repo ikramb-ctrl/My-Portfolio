@@ -39,7 +39,8 @@ const useStyles = makeStyles((theme) => ({
     root: {
         maxWidth: 1245,
         flexGrow: 1,
-        marginBottom:200,
+        marginBottom:300,
+        
         
     },
     header: {
@@ -48,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
         height: 100,
         paddingLeft: theme.spacing(4),
         backgroundColor: theme.palette.background.default,
+        marginTop:100,
     },
     img: {
         height: 585,
