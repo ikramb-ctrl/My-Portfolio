@@ -18,6 +18,7 @@ export default class Contact extends React.Component {
                 action="https://formspree.io/xgenryol"
                 method="POST">
                     <div id="Contact"> </div>
+                    <h2>Me Contacter</h2>
 
                 <label className='titre'>Nom: </label>
                 <input className='form-info' type="nom" name="nom" />
