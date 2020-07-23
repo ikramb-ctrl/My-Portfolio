@@ -1,0 +1,32 @@
+.formulaire {
+    background-color: lightgray;
+    width: 945px;
+    height:500px;
+    text-align: left;
+
+    
+}
+.form-info {
+    width:250px;
+    height:30px ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 130px;
+    
+}
+.form-message {
+    width:550px;
+    height:150px ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 130px;
+    
+}
+
+.form-contact {
+    width:250px;
+    height:30px ;
+    
+}
