@@ -1,17 +1,24 @@
+
 .skills {
-    background-color:grey;
-    margin-top:100px;
+    border-color: white;
+    background-color:rgba(0, 0, 0, 0.54);
+    margin-top:300px;
+    margin-bottom:300px;
     width:945px;
     font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 15px;
+    
 }
+
  .first-paragraphe {
 border-style: groove;
 margin:70px;
 width: 330px;
 border-radius: 50%;
 float:right;
+
  }
+ 
  .second-paragraphe {
     border-style: groove;
     margin:70px;

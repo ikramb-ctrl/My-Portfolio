@@ -1,0 +1,29 @@
+.menu {
+    background-color:white;
+    color:black;
+    margin-bottom:300px;
+    height:700px;
+    width:1700px;
+}
+nav ul 
+{
+
+	list-style-type: none;  
+    display: flex;
+ 
+
+}
+
+nav li
+{
+
+	padding: 155px;
+   
+}
+nav a
+{
+
+	font-size: 1.2em;
+	color: rgb(28, 28, 199);
+    text-decoration:underline overline;
+}

@@ -17,7 +17,7 @@ import Timeline from './Timeline';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        maxWidth: 945,
+        maxWidth: 1000,
     },
     media: {
         height: 0,
@@ -48,6 +48,7 @@ export default function RecipeReviewCard() {
 
     return (
         <Card className={classes.root}>
+            <div id="Bio"> </div>
             <CardHeader
                 avatar={
                     <Avatar aria-label="recipe" className={classes.avatar}>

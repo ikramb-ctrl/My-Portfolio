@@ -1,27 +1,19 @@
-/* import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
-//import Card from './Card';
-
+import React from 'react';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Footer = () => (
     <footer className="footer">
-      
-      <div className="col contactCol">
-        <Card source="../static/pics/gmail.png" text="dslatuno@gmail.com" />
-        <Card source="../static/pics/github.png" text={<a href="https://github.com/davidlatuno" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-dark">GitHub</button></a>} />
-        <Card source="../static/pics/linkedin.png" text={<a href="https://www.linkedin.com/in/david-latuno" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-dark">LinkedIn</button></a>} />
-        <Card
-          source="../static/pics/resume.png"
-          text={
-            <React.Fragment>
-              <a href="https://github.com/davidlatuno/react-portfolio/blob/master/static/pics/David%20Latuno%20Resume.pdf" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-dark">Resume</button></a>
-              <a href="https://github.com/davidlatuno/react-portfolio/raw/master/static/pics/David%20Latuno%20Resume.pdf" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-dark"><FontAwesomeIcon icon={faDownload} /></button></a>
-            </React.Fragment>
-          }/>
+        <div className = "icon-bar">
+                <a className = "social-link github-link" href = "https://github.com/ikramb-ctrl"> <GitHubIcon /> </a>
+                <a className = "social-link emailp-link" href = "mail.google.com"> <AlternateEmailIcon /> </a>
+                <a className = "social-link linkedin-link" href = "https://www.linkedin.com/in/ikram-beldjilali-298a501a2/"> <LinkedInIcon /> </a>
+
       </div>
+      
     </footer>
   );
   
-  export default Footer;*/
+  export default Footer;
 
