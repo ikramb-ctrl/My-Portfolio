@@ -11,34 +11,18 @@
 }
 
  .first-paragraphe {
-border-style: groove;
-margin:70px;
+
+margin:62px;
 width: 330px;
-border-radius: 50%;
 float:right;
 
  }
  
  .second-paragraphe {
-    border-style: groove;
+   
     margin:70px;
     width: 350px;
     float:right;
-    border-radius: 50%;
-    background-color: aliceblue;
-    color:black;
-}
-.third-paragraphe {
-    border-style: groove;
-    margin:100px;
-    width: 340px;
-    border-radius: 50%;
-    background-color: aliceblue;
-    color:black;
-}
-.fourth-paragraphe {
-    border-style: groove;
-    margin:120px;
-    width: 340px;
-    border-radius: 50%;
+    
+    
 }

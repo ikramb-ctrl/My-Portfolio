@@ -17,19 +17,21 @@ export default class Contact extends React.Component {
                 onSubmit={this.submitForm}
                 action="https://formspree.io/xgenryol"
                 method="POST">
+                    <div id="Contact"> </div>
 
-                <label>Nom: </label>
+                <label className='titre'>Nom: </label>
                 <input className='form-info' type="nom" name="nom" />
                 
-                <label>Prénom: </label>
+                <label className='titre'>Prénom: </label>
                 <input className='form-info' type="prénom" name="prénom" />
                 
-                <label>Email:</label>
+                <label className='titre'>Email:</label>
                 <input className='form-info' type="email" name="email" />
 
-                <label>Message:</label>
-                <input className='form-message' type="text" name="message" />
-                {status === "SUCCESS" ? <p>Merci !</p> : <button>Envoyer</button>}
+                <label className='titrem'>Message:</label>
+    
+                <textarea className='form-message' type="text" name="message" />
+                {status === "SUCCESS" ? <p>Merci !</p> : <button className='envoyer'>Envoyer </button>}
                 {status === "ERROR" && <p>Ooops! Il y a une erreur.</p>}
             </form>
         );

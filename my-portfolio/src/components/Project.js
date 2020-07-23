@@ -15,43 +15,44 @@ const tutorialSteps = [
     {
         label: 'Weather Suggest -->   ce projet est une application météo qui a été réalisé en équipe avec React.JS  ',
         imgPath:
-            'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
+            'https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
     },
     
     {
         label: 'Freelance Lyonnais -->   un projet réalisé en React et Node.js dans le but de créer un annuaire pour Freelance Lyonnais ',
         imgPath:
-            'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80',
+            'https://skillvalue.com/blog/wp-content/uploads/2019/07/travail-en-freelance-lyon.jpg',
     },
     {
         label: 'To do Lyon -->   un premier projet réalisé en HTML et CSS sur le théme de la ville de Lyon',
         imgPath:
-            'https://images.unsplash.com/photo-1518732714860-b62714ce0c59?auto=format&fit=crop&w=400&h=250&q=60',
+            'https://media.routard.com/image/87/8/lyon.1556878.c1000x300.jpg',
     },
     {
         label: 'Ordoli -->   un projet réalisé en équipe en React et avec Firebase dans le cadre dans le cadre d un partenariat avec Doctolib ',
         imgPath:
-            'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
+            'https://www.strategies.fr/sites/default/files/assets/images/strats-image-4018225.jpeg',
     },
 ];
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        maxWidth: 945,
+        maxWidth: 1245,
         flexGrow: 1,
         marginBottom:200,
+        
     },
     header: {
         display: 'flex',
         alignItems: 'center',
-        height: 150,
+        height: 100,
         paddingLeft: theme.spacing(4),
         backgroundColor: theme.palette.background.default,
     },
     img: {
-        height: 385,
+        height: 585,
         display: 'block',
-        maxWidth: 945,
+        maxWidth: 1245,
         overflow: 'hidden',
         width: '100%',
     },

@@ -22,10 +22,11 @@ function Skills() {
 <p class="animate__animated animate__zoomIn">Je travaille aussi bien seul qu'en groupe</p>
 
             </div>
+<br/>
 
             <div className='fourth-paragraphe'>
             <h3 class="animate__animated animate__bounceInLeft">Adaptation</h3>
-<p class="animate__animated animate__zoomIn">Je peux et sais m'adapter à toutes situation</p>
+<p class="animate__animated animate__zoomIn">Je peux et sais m'adapter à toutes situations</p>
 
 
             </div>
